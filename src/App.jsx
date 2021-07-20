@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import PrivateRoute from './auth/privateRoute';
 
-function App() {
+function App(props) {
   return (
     <>
       Your rendering
