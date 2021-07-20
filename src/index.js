@@ -5,11 +5,11 @@ import { Provider } from 'react-redux';
 import App from './App';
 //import reducer from './state/reducers/reducers';
 //import thunk from 'redux-thunk';
-//import { saveToLocalStorage, loadFromLocalStorage } from './utils/saveSession';
+import { saveToLocalStorage, loadFromLocalStorage } from './utils/saveSession';
 
 require('dotenv').config();
 
-//const persistedState = loadFromLocalStorage();
+const persistedState = loadFromLocalStorage();
 
 //const store = createStore(reducer, persistedState, applyMiddleware(thunk));
 
