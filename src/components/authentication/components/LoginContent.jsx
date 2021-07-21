@@ -3,7 +3,6 @@ import { withRouter } from 'react-router-dom';
 import { Form, Input, Button } from 'antd';
 import { connect } from 'react-redux';
 import { loginSubmit } from '../../../state/actions/actions';
-import { Auth } from 'aws-amplify';
 
 import '../../../antd/styles/signupContent.css';
 
