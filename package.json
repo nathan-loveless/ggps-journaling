@@ -15,6 +15,7 @@
   "dependencies": {
     "@aws-amplify/ui-react": "^1.2.3",
     "antd": "^4.16.1",
+    "aws-amplify": "^4.2.0",
     "babel-cli": "^6.26.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",

@@ -1,4 +1,4 @@
-import { SIGNUP_SUBMIT } from '../actions/actions';
+import { SIGNUP_SUBMIT, LOGIN_SUBMIT } from '../actions/actions';
 const initialState = {
   user: {
     firstName: '',
@@ -13,6 +13,9 @@ function reducer(state = initialState, action) {
     case SIGNUP_SUBMIT: {
       console.log('Hit reducer signupSubmit');
       return { ...state, user: action.payload.data };
+    }
+    case LOGIN_SUBMIT: {
+      break;
     }
     default: {
       return state;
