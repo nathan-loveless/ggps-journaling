@@ -1,18 +1,18 @@
 import React from 'react';
 
+import LandingHeader from '../components/LandingHeader';
 import LayoutHFC from '../../common/layoutComponents/LayoutHFC';
-import LoginContent from '../components/LoginContent';
 
-const Login = () => {
+const Landing = () => {
   return (
     <div className="page page-layout">
       <LayoutHFC
-        HeaderComponents={null}
-        ContentComponents={<LoginContent />}
+        HeaderComponents={<LandingHeader />}
+        ContentComponents={null}
         FooterComponents={null}
       />
     </div>
   );
 };
 
-export default Login;
+export default Landing;
