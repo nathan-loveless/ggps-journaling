@@ -1,0 +1,27 @@
+:root {
+  /* Primary colors forest green */
+  --primary-light: #e2ecdf;
+  --primary-main: #8bb380;
+  --primary-dark: #426039;
+
+  /* Secondary colors blueish grey */
+  --secondary-light: #dfe3ec;
+  --secondary-main: #808fb3;
+  --secondary-dark: #394560;
+
+  /* darker version of secondary colors */
+  --secondary-dark-light: #e0e5eb;
+  --secondary-dark-main: #8397af;
+  --secondary-dark-dark: #3c4b5d;
+
+  /* grey with red hue */
+  --grey-red-light: #e7e4e6;
+  --grey-red-main: #9f939a;
+  --grey-red-dark: #51484d;
+
+  /* Grey with some blue */
+  --grey-blue-light: #e0e7eb;
+  --grey-blue-lesser-light: #d0dbe1;
+  --grey-blue-main: #859fad;
+  --grey-blue-dark: #3d515c;
+}

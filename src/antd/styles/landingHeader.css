@@ -1,0 +1,16 @@
+@import '~antd/dist/antd.css';
+@import './colorPalette.css';
+
+.header-container {
+  background: var(--primary-main);
+}
+
+.auth-button-group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.auth-button {
+  margin: 5px;
+  background: var(--primary-light);
+}

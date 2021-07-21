@@ -1,0 +1,47 @@
+@import '~antd/dist/antd.css';
+@import '../styles/colorPalette.css';
+
+.ant-layout-header {
+  padding: 0px;
+}
+.page {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.page-layout {
+  width: 100%;
+  height: 100%;
+}
+
+.header-footer {
+  text-align: center;
+  background: red;
+  /*background: #7c98b3;*/
+}
+
+.content {
+  /*background: #cee5f2;*/
+  background: blue;
+}
+
+.sidebar {
+  background: #637081;
+}
+
+.page-layout .content {
+  padding: 5px 5px 5px 5px;
+}
+.footer {
+  background: pink;
+  /*background: #7c98b3;*/
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  bottom: 0;
+}
