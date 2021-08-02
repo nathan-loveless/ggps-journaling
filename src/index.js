@@ -6,7 +6,7 @@ import App from './App';
 import reducer from './state/reducers/reducers';
 import thunk from 'redux-thunk';
 import { saveToLocalStorage, loadFromLocalStorage } from './utils/saveSession';
-import { configureAmplify } from './amplify';
+import { configureAmplify } from './amplify.js';
 
 require('dotenv').config();
 
